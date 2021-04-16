@@ -1,61 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="Static\masterstyle.css" rel="stylesheet" text="text/css">
+	<link href="Static/masterstyle.css" rel="stylesheet" text="text/css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 	<title>K20NS Gems</title>
 </head>
 <body>
-<div style="background-color:#ffb3b3; ">
-<div>
+<div class="header">
+	<nav>
 	<ul>
-		<li>Home</li>
-		<li>Services</li>
-		<li>About</li>
-		<li>Contact</li>
-		<li style="float:left">#Donate Blood</li>
+		<li><a href="master.html" style="color:#8c1aff">Home</a></li>
+		<li><a href="services.html" style="color:#8c1aff">Videos/Blogs</a></li>
+		<li><a href="about.html" target="_blank" style="color:#8c1aff">About</a></li>
+		<li><a href="contact.html" target="_blank" style="color:#8c1aff">Contact</a></li>
+		<li style="float:left;font-size:25px;color:#ff3333;">#Donate Blood</li>
 	</ul>
+	</nav>
 </div>
     <!-- introduction -->
+  <div style="background-color:#ffb3b3; ">
 	<div class="container">
 		<div class="row">
 			<div class="col-1 brand">
 				<p>You are  not Useless,<br>Know your worth by donating blood!<br>Donate blood and be a hero of someone's life</p>
 				<button class="btn">Register</button>
 				<button class="btn">Donate</button>
+				<br><br><br><br>
+				<div class="info">
+					<p>To donate blood or to find your blood donor , you can contact us on <i class="fa fa-phone" aria-hidden="true"></i> +91 1234567890, +91 2345677852(24 x 7)<i class="fa fa-envelope" aria-hidden="true"></i>donate.blood@gmail.com<br>
+				<span style="font-size:15px">Just give us a call and we'll be happy to assist you in any possible way.</span>
+				</div>
 			</div>
-			<div class="col-1">
-				<img src="Images\heart-removebg-preview.png">
-			</div>
+			<!-- <div class="col-1 band">
+				<img src="Images\blood.gif">
+			</div> -->
 		</div>
 	</div>
 </div>
+<div class="counters-body">
+	<section class="counters">
+		<div class="counter-container">
+			<div>
+				<div class="counter" data-target="60000">0</div>
+				<h3>People who Donated blood</h3>
+			</div>
+			<div>
+				<div class="counter" data-target="15000">0</div>
+				<h3>Registers</h3>
+			</div>
+			<div>
+				<div class="counter" data-target="9000">0</div>
+				<h3>Volunteered</h3>
+			</div>
+			<div>
+				<div class="counter" data-target="5000">0</div>
+				<h3>FundRising</h3>
+			</div>
+		</div>
+	</section>
+</div>
+<center>
+<div class="count">
+	<h2>Survey</h2>
+      	<label>How many times you donated blood ?</label><br><br>
+      	<input type="text" id="c">
+      	<br><br>
+      	<button onclick="check()" class="btn-1">Submit</button><br>
+      	<br>
+      	<input type="text" id="d" size="70">
+      	<br>
+      	<h4><i class="fa fa-copyright" aria-hidden="true"></i>#Donate Blood wants to encourage people to donate blood. A simple act of kindness creates endless ripples!!</h4>
+</div>
+</center>
 	<!-- flash cards -->
 	<div class="small-container">
 		<p class="styling">How we promote Blood Donation<br>#Let's Donate Blood</p>
 		<div class="row-1">
 			<div class="col-3">
 				<div class="cards" id="box1" onclick="addeventclass(this.id)">
-					Blood Donation Camp
+					<img src="Images\LOGO_5-removebg-preview.png">
+					<p class="card-text">Blood Donation Camp</p>
 				</div>
 			</div>
 			<div class="col-3">
 				<div class="cards" id="box2" onclick="addeventclass(this.id)">
-					Blood Donor Day
+					<img src="Images\LOGO_5-removebg-preview.png">
+					<p class="card-text">Blood Donor Day</p>
 				</div>
 			</div>
 			<div class="col-3">
 				<div class="cards" id="box3" onclick="addeventclass(this.id)">
-				   Posters made by students 
+				   <img src="Images\LOGO_5-removebg-preview.png">
+					<p class="card-text">Posters made by students</p> 
 				</div>
 			</div>
 	   </div>
 	   
       </div>
+      
 	<!-- slide share -->
 	<!-- Blood donation Camp -->
 	<div class="s-container">
@@ -160,19 +218,59 @@
 	</div>
 	</div>
 	</div>
-
+	<div class="video">
+		<iframe src="https://www.youtube.com/embed/-1O4jlEhsxU" width="900px" height="500px"></iframe>
+	</div>
+	<!-- Notifications -->
+	<div class="notifications">
+		<center><h3 style="font-size:25px">Notifications</h3></center>
+		<div class="updates">
+			<marquee direction="up" scrolldelay=200 onmouseover="this.stop()" onmouseout="this.start()" class="x">
+			<p>
+			<b>Corona updates</b>
+			<br><br>
+			<img src="Images\new.gif" alt="New">
+			In light of the surge in cases, Government of India has decided to postpone the National Eligibility cum Entrance Test-Postgraduate exam which was earlier scheduled to be held on April 18.<br><br>Next date to be decided later: Union Health Minister Dr Harsh Vardhan.
+			<br><br><br>
+			<img src="Images\new.gif" alt="New">
+			India on Thursday registered 2,00,739 fresh Covid-19 infections in the last 24 hours, a record high since the coronavirus pandemic began last year.
+			<br>
+			<br><br>
+			<img src="Images\new.gif" alt="New">
+			Chhattisgarh imposes night curfew; MP shuts schools; Negative RT-PCR test report must for entering Uttarakhand
+			<br><br>
+			<img src="Images\new.gif" alt="New">
+			Corona Live Tracker : Amid Covid spike, Kerela govt to conduct 2.5 Lakh tests in 2 days.
+			</p>
+			</marquee>
+		</div>
+	</div>
+	<!-- <div class="video">
+		<iframe src="https://www.youtube.com/embed/oZwtv9IJH6A"></iframe>
+	</div> -->
 	<!-- flip cards -->
 	<div class="f-container">
-		<p style="font-size:50px">What's your blood type?</p>
+		<p style="font-size:45px;color:black;font-family: 'Bungee Shade', cursive;display: inline;margin-left: 120px;">What's your blood type?</p>
+		<div class="rr">
+			<div class="cc">
+				<h2 style="font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;">A greatful heart is a happy heart! You make our day by donating blood, we bring you some interesting and fun facts about blood groups. Check out a fun fact about your blood group.</h2>
+			</div>
+			<div class="cc">
+				<img src="Images\have_fun-removebg-preview.png" width="200px" height="200px">
+			</div>
+		</div>
+		<br>
+		<!-- <img src="Images\have_fun-removebg-preview.png" width="150px" height="150px"> -->
 		<div class="row-2">
 			<div class="col-4">
 				<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<p>B+</p>
+						<p style="color:red">B+</p>
 					</div>
 					<div class="flip-card-back">
-						<p>No need to motivate you people, you are B+ afterall !<br><span style='font-size:70px;'>&#128514;</span></p>
+						<p style="color:red">No need to motivate you people, you are B+ afterall !<br><span style='font-size:70px;'>&#128514;</span></p>
 					</div>
 				</div>
 				</div>
@@ -181,10 +279,10 @@
 				<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<p>O+</p>
+						<p style="color:red">O+</p>
 					</div>
 					<div class="flip-card-back">
-						<p>You are most important, always in demand!<br><span style='font-size:60px;'>&#128519;</span></p>
+						<p style="color:red">You are most important, always in demand!<br><span style='font-size:60px;'>&#128519;</span></p>
 					</div>
 				</div>
 				</div>
@@ -193,10 +291,10 @@
 				<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<p>A+</p>
+						<p style="color:red">A+</p>
 					</div>
 					<div class="flip-card-back">
-						<p>You are a born topper, A+ !!<br><span style="font-size: 70px">&#128526;</span></p>
+						<p style="color:red">You are a born topper, A+ !!<br><span style="font-size: 70px">&#128526;</span></p>
 					</div>
 				</div>
 				</div>
@@ -205,10 +303,10 @@
 				<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<p>AB+</p>
+						<p style="color:red">AB+</p>
 					</div>
 					<div class="flip-card-back">
-						<p>Combination of A & B, a born topper as well as an optismitic person<br><span style='font-size:50px;'>&#128521;</span></p>
+						<p style="color:red">Combination of A & B, a born topper as well as an optismitic person<br><span style='font-size:50px;'>&#128521;</span></p>
 					</div>
 				</div>
 				</div>
@@ -222,10 +320,10 @@
 				<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<p>B-</p>
+						<p style="color:red">B-</p>
 					</div>
 					<div class="flip-card-back">
-						<p>You have practical approach, always being positive doesn't help!<br><span style='font-size:50px;'>&#128548;</span></p>
+						<p style="color:red">You have practical approach, always being positive doesn't help!<br><span style='font-size:50px;'>&#128548;</span></p>
 					</div>
 				</div>
 				</div>
@@ -234,10 +332,10 @@
 				<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<p>O-</p>
+						<p style="color:red">O-</p>
 					</div>
 					<div class="flip-card-back">
-						<p>You are the rarest !!<br><span style='font-size:70px;'>&#128562;</span></p>
+						<p style="color:red">You are the rarest !!<br><span style='font-size:70px;'>&#128562;</span></p>
 					</div>
 				</div>
 				</div>
@@ -246,10 +344,10 @@
 				<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<p>A-</p>
+						<p style="color:red">A-</p>
 					</div>
 					<div class="flip-card-back">
-						<p>Be like idk anything before exam, then manages to get A-<br><span style='font-size:70px;'>&#128579;</span></p>
+						<p style="color:red">Be like idk anything before exam, then manages to get A-<br><span style='font-size:70px;'>&#128579;</span></p>
 					</div>
 				</div>
 				</div>
@@ -258,10 +356,10 @@
 				<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<p>AB-</p>
+						<p style="color:red">AB-</p>
 					</div>
 					<div class="flip-card-back">
-						<p>You love to chill and relax<br><span style='font-size:70px;'>&#128514;</span></p>
+						<p style="color:red">You love to chill and relax<br><span style='font-size:70px;'>&#128514;</span></p>
 					</div>
 				</div>
 				</div>
@@ -272,7 +370,8 @@
 	<!-- what to expect at donation -->
 	<h2 class="heading">What to expect at your donation ?</h2>
 	<div class="p-container">
-	<div class="para">
+	<div class="row-4">
+		<div class="para">
 		<div class="row-3">
 			<div class="col">
 				<img src="Images\20.png">
@@ -291,7 +390,7 @@
 		</div>
 		<div class="row-3">
 			<div class="col">
-				<img src="Images\22.jpg" height="200px" width="200px">
+				<img src="Images\22-removebg-preview.png" height="200px" width="200px">
 			</div>
 			<div class="col">
 				<p class="style"><strong>The Donation</strong><br>You'll be seated comfortably while a pint of blood is drawn. The actual donation only takes 8-10 minutes.</p>
@@ -315,12 +414,163 @@
 		</div>
 	</div>
 	</div>
-	<!-- <div class="social">
+	<div class="row-4">
+			<p><span><strong>Can I donate blood ?</strong></span><br><br>
+			Be in good general health and feeling well.<br><br>
+			Be at least 17 years old in most states (16 years old with parental consent in some states).<br><br>
+			Weigh at least 110 pounds. Additional weight requirements apply for donors 18 years old and younger and all high school donors.<br><br>
+Have not donated blood in the last 56 days.</p>
+			<img src="Images\24-removebg-preview.png">
+			<!-- <img src="Images\blood_2.gif" height="300px" width="300px"> -->
+			<img src="Images\blood.gif" height="250px" width="250px">
+			<!-- <ul type="disc">
+			<li>Be in good general health and feeling well.</li>
+			<li>Be at least 17 years old in most states (16 years old with parental consent in some states).</li>
+			<li>Weigh at least 110 pounds. Additional weight requirements apply for donors 18 years old and younger and all high school donors.</li>
+			<li>Have not donated blood in the last 56 days.</li>
+			</ul> -->
+	</div>
+	</div>
+   <!--Testimonials  -->
+   	<div class="testimonials">
+   		<h2 style="font-family: 'Dela Gothic One', cursive;
+	font-family: 'Fira Sans Condensed', sans-serif;">Blood Donor and blood recepient's stories...</h2>
+   		<br>
+   		<br>
+   		<div class="row-7">
+   			<div class="col-5">
+   				<div class="test">
+   					<img src="Images\ad_1.jpg" height="50px" width="50px">
+   					<h4 style="padding:5px">Chelsea Yarmon</h4>
+   					<p>"We never thought we would walk the cancer path. Thanks to blood donors who helped keep our son Adam alive, we had a good chance of beating this thing".</p>
+   				</div>
+   			</div>
+   			<div class="col-5">
+   				<div class="test">
+   					<img src="Images\ad_2.jpg" height="50px" width="50px">
+   					<h4 style="padding:5px">Anandi Gupta</h4>
+   					<p>"I needed blood to stay alive. The blood I got at the hospital was from donors with #Donate Blood, and I know that literally my life was saved because of blood donors."</p>
+   				</div>
+   			</div>
+   			<div class="col-5">
+   				<div class="test">
+   					<img src="Images\ad_4.jpg" height="55px" width="55px">
+   					<h4 style="padding:5px">Barry</h4>
+   					<p>"After I gave blood once, I realised there was no good reason to stop."<br><br><span class="uu">~Barry has been donating blood for 50 years and saved more than 450 lives!!</span></p>
+   				</div>
+   			</div>
+   		</div>
+
+   		<div class="row-7">
+   			<div class="col-5">
+   				<div class="test">
+   					<img src="Images\ad_6.jpeg" height="50px" width="50px">
+   					<h4 style="padding:5px">Megan Fernandez</h4>
+   					<p>"Saving lives in my grandfather's memory. I remember wishing we had the same blood type so that I could do something really tangible to help his treatment. "</p>
+   				</div>
+   			</div>
+   			<div class="col-5">
+   				<div class="test">
+   					<img src="Images\ad_7.png" height="50px" width="50px">
+   					<h4 style="padding:5px">Archie</h4>
+   					<p>"I relied on blood transfusion for ten years. Nobody can understand the importance of blood donation than me."</p>
+   				</div>
+   			</div>
+   			<div class="col-5">
+   				<div class="test">
+   					<img src="Images\ad_8.png" height="55px" width="55px">
+   					<h4 style="padding:5px">Jyothindra Mithani</h4>
+   					<p>"People ask me why you donate blood? I ask them why don't you donate blood. It's all about bringing a life back to power."</p>
+   				</div>
+   			</div>
+   		</div>
+   	</div>
+
+	<!-- new addition -->
+	<div class="sponsor">
+		<center><h2>Collaborators</h2></center>
+		<div class="row-5">
+			<div class="col-2">
+				<img src="Images/fortis.png">
+			</div>
+			<div class="col-2">
+				<img src="Images/sponsor_2.jpg" height="200px" width="200px">
+			</div>
+			<div class="col-2">
+				<img src="Images/sponsor_1.png" height="200px" width="200px">
+			</div>
+			<div class="col-2">
+				<img src="Images/apollo.jpg">
+			</div>
+		</div>
+		<div class="row-5">
+			<div class="col-2">
+				<img src="Images/25-removebg-preview.png" height="200px" width="200px">
+			</div>
+			<div class="col-2">
+				<img src="Images/cankids.png" height="180px" width="180px">
+			</div>
+			<div class="col-2">
+				<img src="Images/impactguru.jpg" height="180px" width="180px">
+			</div>
+			<div class="col-2">
+				<img src="Images/cancer care.png" height="180px" width="180px">
+			</div>
+		</div>
+	</div>
+	<center><h3>You can connect with us on our social media handles :</h3></center>
+	<div class="icons">
+	<div class="social">
+		<br>
 		<a href="#" class="fa fa-facebook"></a>
     	<a href="#" class="fa fa-twitter"></a>
     	<a href="#" class="fa fa-google"></a>
     	<a href="#" class="fa fa-linkedin"></a>
-	</div> -->
+    	<a href="#" class="fa fa-youtube"></a>
+		<a href="#" class="fa fa-instagram"></a>
+	</div>
+	</div>
+	
+	<!-- footer -->
+	<div class="ff-container">
+		<div class="footer">
+			<div class="row-6">
+				<div class="column">
+					<center><h2><b>About Us</b></h2></center>
+					<br>
+					<div class="foot-para">
+					<p>#Donate Blood <br>
+				A non profit organisation which works for promoting blood donation.We also conduct various blood donation camps and awareness programs.We are associated with many blood cancer NGO's to provide blood to those who are in need.</p>
+					</div>
+				</div>
+				<div class="column">
+					<center><h2><b>Quick Links</b></h2></center>
+					<div class="foot-para quick">
+						<ul>
+							<li>Home</li>
+							<li>About</li>
+							<li>Service</li>
+							<li>FAQ</li>
+							<li>Contact</li>
+						</ul>
+					</div>
+				</div>
+				<div class="column">
+					<center><h2><b>Contact</b></h2></center>
+					<div class="foot-para con">
+						<ul>
+							<li><i class="fa fa-map-marker" aria-hidden="true"></i>5th Floor, A-118,
+Sector-136, Noida, Uttar Pradesh</li>
+							<li><i class="fa fa-envelope" aria-hidden="true"></i>donate.blood@gmail.com</li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i> +91 1234567890</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<hr width="90%">
+			<center><h5><i class="fa fa-copyright" aria-hidden="true"></i>COPYRIGHT 2021 #DONATE BLOOD ALL RIGHTS RESERVED</h5></center>
+		</div>
+	</div>
 	<script src="JS\master.js"></script>
 </body>
 </html>

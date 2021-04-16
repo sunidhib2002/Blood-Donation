@@ -122,5 +122,69 @@ function  addeventclass(box)
   }
 } 
 
+function check()
+{
+  const count=Number(document.getElementById('c').value);
+  console.log(count);
+  switch(count)
+  {
+    case 1:
+    document.getElementById('d').value="Wow! You are on the right track.Keep donating blood like this.";
+    break;
+
+    case 2:
+    document.getElementById('d').value="You are hero!! If you will make it to 5 blood donation, you will get exciting prices";
+    break;
+
+    case 3:
+    document.getElementById('d').value="Great job!!";
+    break;
+
+    case 5:
+    document.getElementById('d').value="Highly appreciative!!we will be really happy to have you onboard with our organisation";
+    break;
+
+    case 0:
+    document.getElementById('d').value="What are you waiting for ? Go and get your first donation done!!";
+    break;
+
+    default:
+    document.getElementById('d').value="You will be getting a cash price of Rs 3000 for your generosity";
+  }
+}
+
+const counters=document.querySelectorAll('.counter');
+const speed=200;
+
+//console.log(counters);
+//console.log(speed);
+
+counters.forEach(counter=>{
+     
+      const updatecount=()=>{
+      const target=+counter.getAttribute('data-target');
+      const count=+counter.innerText;
+
+      const inc=target/speed;
+
+      if(count<target)
+      {
+        counter.innerText=count+inc;
+        setTimeout(updatecount,1);
+      }
+      else
+      {
+        counter.innerText=target;
+      }
+     //console.log(target);
+    }
+
+    updatecount();
+
+});
+
+
+
+
 
 
