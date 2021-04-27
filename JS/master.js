@@ -22,7 +22,7 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display ="block";  
   dots[slideIndex-1].className += " active";
 }
 // second slide share
@@ -126,31 +126,39 @@ function check()
 {
   const count=Number(document.getElementById('c').value);
   console.log(count);
-  switch(count)
+  if(count!=' ')
   {
-    case 1:
-    document.getElementById('d').value="Wow! You are on the right track.Keep donating blood like this.";
-    break;
+      switch(count)
+       {
+        
+      case 1:
+      document.getElementById('d').value="Wow! You are on the right track.Keep donating blood like this.";
+      break;
 
-    case 2:
-    document.getElementById('d').value="You are hero!! If you will make it to 5 blood donation, you will get exciting prices";
-    break;
+      case 2:
+      document.getElementById('d').value="You are hero!! If you will make it to 5 blood donation, you will get exciting prices";
+      break;
 
-    case 3:
-    document.getElementById('d').value="Great job!!";
-    break;
+      case 3:
+      document.getElementById('d').value="Great job!!";
+      break;
 
-    case 5:
-    document.getElementById('d').value="Highly appreciative!!we will be really happy to have you onboard with our organisation";
-    break;
+      case 5:
+      document.getElementById('d').value="Highly appreciative!!we will be really happy to have you onboard with our organisation";
+      break;
 
-    case 0:
-    document.getElementById('d').value="What are you waiting for ? Go and get your first donation done!!";
-    break;
+      case 0:
+      document.getElementById('d').value="What are you waiting for ? Go and get your first donation done!!";
+      break;
 
-    default:
-    document.getElementById('d').value="You will be getting a cash price of Rs 3000 for your generosity";
+      default:
+      document.getElementById('d').value="You will be getting a cash price of Rs 3000 for your generosity";
+       }
   }
+  else{
+     alert("Please fill the required field in survey form");
+  }
+
 }
 
 const counters=document.querySelectorAll('.counter');
@@ -182,6 +190,8 @@ counters.forEach(counter=>{
     updatecount();
 
 });
+
+
 
 
 
