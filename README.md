@@ -1,5 +1,5 @@
 # Blood-Donation
-<p>This is a website made using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> to provide information regarding blood donation camps and donors.<br>
+<p>This is a website made using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> to provide information regarding blood donation camps and blood donors.<br>
 <b>Every year our nation requires about 5 Crore units of blood, out of which only 2.5 Crore units of blood is available. There is no substitute for human blood.</b><br>
 This website aims to spread awareness about blood donation and how just 15 minutes can save someone’s life.
 It provides you an option to become a voluntary donor or find a blood donor for yourself. It also shares the information regarding the blood donation camps. Multi-page website consisting of Home, Contact, About, FAQ and Blogs page.
