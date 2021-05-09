@@ -82,7 +82,7 @@ function showSlides_3(n) {
   dots[slideIndex_3-1].className += " active_3";
 }
 
-function  addeventclass(box)
+function addeventclass(box)
 {
   console.log(box);
   if(box === "box1")
@@ -91,8 +91,6 @@ function  addeventclass(box)
       console.log(division);
       const division_2=document.getElementsByClassName("slideshow-container_2")[0];
       const division_3=document.getElementsByClassName("slideshow-container_3")[0];
-      // division_2.style.display="none";
-      // division_3.style.dispaly="none";
       division_2.classList.remove('event');
       division_3.classList.remove('event');
       division.classList.add('event');
@@ -133,30 +131,33 @@ function check()
         
       case 1:
       document.getElementById('d').value="Wow! You are on the right track.Keep donating blood like this.";
+      document.getElementById('c').style.borderBottomColor="black";
       break;
 
       case 2:
       document.getElementById('d').value="You are hero!! If you will make it to 5 blood donation, you will get exciting prices";
+      document.getElementById('c').style.borderBottomColor="black";
       break;
 
       case 3:
+      case 4:
       document.getElementById('d').value="Great job!!";
+      document.getElementById('c').style.borderBottomColor="black";
       break;
 
       case 5:
       document.getElementById('d').value="Highly appreciative!!we will be really happy to have you onboard with our organisation";
-      break;
-
-      case 0:
-      document.getElementById('d').value="What are you waiting for ? Go and get your first donation done!!";
+      document.getElementById('c').style.borderBottomColor="black";
       break;
 
       default:
       document.getElementById('d').value="You will be getting a cash price of Rs 3000 for your generosity";
+      document.getElementById('c').style.borderBottomColor="black";
        }
   }
   else{
      alert("Please fill the required field in survey form");
+     document.getElementById('c').style.borderBottomColor="white";
   }
 
 }
