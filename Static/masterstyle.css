@@ -761,7 +761,7 @@ form{
 	display:flex;
 	margin-right: 50px;
 	margin-left:50px;
-	justify-content: space-around;
+	justify-content: space-around !important;
 	margin-top:60px;
 }
 
@@ -1497,4 +1497,38 @@ select:focus,select:active{
 
 .form_3{
 	margin-top:10%;
+}
+
+.row-8{
+	/*background-color:green;*/
+	width: 1000px;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.col-6{
+	flex-basis:50%;
+	min-width:180px;
+	background-color:#d9d9d9;
+	border-radius: 12px;
+    height: 352px;
+    margin: 20px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.col-6 p{
+	font-size: 20px;
+    color: black;
+    text-align: left;
+    font-family: "Times New Roman";
+}
+
+.col-6:hover{
+	cursor: pointer;
+	box-shadow:3px 3px 7px 2px #8c8c8c;
 }
