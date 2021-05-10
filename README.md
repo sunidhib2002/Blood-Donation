@@ -8,4 +8,13 @@ The Home section of this website contains a survey form to know whether you have
 <br><b>You don’t have to be a doctor to save life, just donate blood!!</b></p><br>
 <h1>Preview</h1>
 <br>
-![alt text](https://raw.githubusercontent.com/sunidhib2002/Blood-Donation/main/Screenshots/ss1.PNG?raw=true)
+<img src="https://raw.githubusercontent.com/sunidhib2002/Blood-Donation/main/Screenshots/ss1.PNG">
+<br>
+<img src="https://github.com/sunidhib2002/Blood-Donation/blob/main/Screenshots/ss2.PNG">
+<br>
+<img src="https://github.com/sunidhib2002/Blood-Donation/blob/main/Screenshots/ss3.PNG">
+<br>
+<img src="https://github.com/sunidhib2002/Blood-Donation/blob/main/Screenshots/ss5.PNG">
+<br>
+<img src="https://github.com/sunidhib2002/Blood-Donation/blob/main/Screenshots/ss4.PNG">
+<br>
