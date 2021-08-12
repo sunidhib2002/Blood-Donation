@@ -27,7 +27,11 @@ The Home section of this website contains a survey form to know whether you have
 <hr>
 <h1>Preview</h1>
 <br>
-<img src="https://github.com/sunidhib2002/Blood-Donation/blob/main/Screenshots/BloodDonation.gif"/>
+<img src="https://github.com/sunidhib2002/Blood-Donation/blob/main/Screenshots/BloodDonation.gif">
+<br>
+<img src="https://github.com/sunidhib2002/Blood-Donation/blob/main/Screenshots/card_flip.gif">
+<br>
+<img src="https://github.com/sunidhib2002/Blood-Donation/blob/main/Screenshots/togglebutton.gif">
 <br>
 <img src="https://raw.githubusercontent.com/sunidhib2002/Blood-Donation/main/Screenshots/ss1.PNG">
 <br>
